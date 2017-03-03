@@ -1,0 +1,39 @@
+
+/* ui-footer */
+
+.footer-item {
+    height:110px;
+	background:#333333;
+}
+
+.footer-module .left {
+    width:300px;
+}
+
+.footer-module .right {
+    width:600px;
+}
+
+.footer-logo {
+    display:block;
+	padding-top:10px;
+}
+
+.footer-nav {
+    display:block;
+	padding-top:17px;
+}
+
+.footer-nav ul li{
+    text-align:center;
+	color:#999999;
+	height:24px;
+	line-height:24px;
+}
+
+.footer-nav ul li a {
+    color:#999999;
+	display:inline-block; *display:inline; *zoom:1;
+	margin-left:-4px;
+	padding:0px 6px;
+}

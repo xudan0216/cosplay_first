@@ -1,0 +1,92 @@
+
+/* ui-header */
+
+.header-item {
+	width:100%;
+	height:125px;
+	background:url(../images/header_img/header_bg.jpg) no-repeat top center #2d2c2c;
+}
+
+.hder-logo {
+    width:200px;
+}
+
+.hder-nav {
+    width:880px;
+}
+
+.hder-logo .logo {
+    display:block;
+	padding-top:22px;
+}
+
+.hder-nav .nav-list .list {
+    float:left;
+	width:110px;
+	text-align:center;
+	position:relative;
+	z-index:0;
+}
+
+.hder-nav .nav-list .list .ct {  
+	padding-top:11px;
+	padding-bottom:14px;
+	display:block;
+	position:relative;
+	z-index:1;
+}
+
+.hder-nav .nav-list .list .ct em{
+	position:absolute;
+	top:84px;
+	left:48px;
+    width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 7.5px 7px 7.5px;
+	border-color: transparent transparent #2b2b2a transparent;
+	line-height: 0px;
+	_border-color: #000000 #000000 #2b2b2a #000000;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+	display:none;
+}
+
+.hder-nav .nav-list .list .ct span {
+    display:block;
+	text-align:center;
+}
+
+.hder-nav .nav-list .list .ct b {
+    font-family:"Microsoft YaHei" !important;
+	font-size:14px;
+}
+
+.hder-nav .nav-list .list .sub-list {
+    display:none;
+}
+
+.hder-nav .nav-list .active {
+    position:relative;
+	z-index:0;
+}
+
+.hder-nav .nav-list .active .ct{
+    background:#3a436a;
+}
+
+.hder-nav .nav-list .active .ct em {
+    display:block;
+}
+
+.hder-nav .nav-list .active .sub-list {
+	display:block;
+	height:35px;
+	line-height:35px;
+	width:880px;
+	text-align:left;
+}
+
+.hder-nav .nav-list .active .sub-list a {
+    margin-right:18px;
+	color:#bbbbbb;
+}

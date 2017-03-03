@@ -1,0 +1,187 @@
+
+/* ui-form-icos-fonts */
+
+/* form */
+
+
+
+/* icos */
+
+i.hd-spr {
+    background:url(../images/head_img/head_sprite.png) no-repeat;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+i.logo {
+    width:100px;
+	height:30px;
+	background-position: 0 -0px;
+}
+
+i.ico-hd-qqw {
+    width:20px;
+	height:20px;
+	background-position: 0 -31px;
+}
+
+i.ico-hd-sina {
+    width:20px;
+	height:20px;
+	background-position: 0 -52px;
+}
+
+i.ico-hd-wx {
+    width:20px;
+	height:20px;
+	background-position: 0 -73px;
+}
+
+i.ico-hd-email {
+    width:20px;
+	height:20px;
+	background-position: 0 -94px;
+}
+
+i.hder-spr {
+    background:url(../images/header_img/header_sprite.png) no-repeat;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+i.ico-hder-home {
+    width:40px;
+	height:40px;
+	background-position: 0 -0px;
+}
+
+i.ico-hder-gamings {
+    width:40px;
+	height:40px;
+	background-position: 0 -41px;
+}
+
+i.ico-hder-perips {
+    width:40px;
+	height:40px;
+	background-position: 0 -82px;
+}
+
+i.ico-hder-sychannel {
+    width:40px;
+	height:40px;
+	background-position: 0 -123px;
+}
+
+i.ico-hder-activity {
+    width:40px;
+	height:40px;
+	background-position: 0 -164px;
+}
+
+i.ico-hder-starplan {
+    width:40px;
+	height:40px;
+	background-position: 0 -205px;
+}
+
+i.ico-hder-djbbs {
+    width:40px;
+	height:40px;
+	background-position: 0 -246px;
+}
+
+i.ico-hder-email {
+    width:40px;
+	height:40px;
+	background-position: 0 -287px;
+}
+
+b.blank-1 {
+    width:11px;
+	height:10px;
+	background:url(../images/blank_1.png) no-repeat;
+	display:block;
+}
+
+
+b.blank-2 {
+    width:11px;
+	height:10px;
+	background:url(../images/blank_2.png) no-repeat;
+	display:block;
+}
+
+i.ico-terss {
+    width:12px;
+	height:12px;
+	display:inline-block; *display:inline; *zoom:1;
+	background:url(../images/ico_6.png) no-repeat;
+}
+
+i.ico-time {
+    width:16px;
+	height:16px;
+	background:url(../images/ico_7.png) no-repeat;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+i.ico-label {
+    width:16px;
+	height:16px;
+	background:url(../images/ico_8.png) no-repeat;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+i.ico-numberof {
+    width:16px;
+	height:16px;
+	background:url(../images/ico_9.png) no-repeat;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+b.b1 {
+    width:42px;
+	height:10px;
+	background:#f0454d;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	display:inline-block; *display:inline; *zoom:1;
+}
+
+b.b2 {
+    width:10px;
+	height:10px;
+	background:#adadad;
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	display:inline-block; *display:inline; *zoom:1;
+
+}
+
+
+/* fonts */
+
+
+
+
+
+
+/* css3 */
+
+/* 位移 */
+.dspment-scale{
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+}
+
+.dspment-scale:hover{
+	-transform:translate(0px, -4px);
+	-webkit-transform:translate(0px, -4px);
+	-moz-transform:translate(0px, -4px);
+	-o-transform:translate(0px, -4px);
+	-ms-transform:translate(0px, -4px);
+}
