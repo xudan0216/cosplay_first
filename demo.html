@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<body>
+
+<style>	
+#page_nav {clear: both; text-align: center; }
+</style>
+<div id="page_nav">
+    <a href="next_link">下一页</a>
+</div>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script>
+nextHref = $("#next_page a").attr("href");
+// 给浏览器窗口绑定 scroll 事件
+$(window).bind("scroll",function(){
+    // 判断窗口的滚动条是否接近页面底部
+    if( $(document).scrollTop() + $(window).height() > $(document).height() - 10 ) {
+        // 判断下一页链接是否为空
+        if( nextHref != undefined ) {
+            // Ajax 翻页
+            $.ajax( {
+                url: $("#page_nav a").attr("href"),
+                type: "POST",
+                success: function(data) {
+                    result = $(data).find("#thumbs .imgbox");
+                    nextHref = $(data).find("#page_nav a").attr("href");
+                    $("#page_nav a").attr("href", nextHref);
+                    $("#thumbs").append(result);
+                }
+            });
+        } else {
+            $("#page_nav").remove();
+        }
+    }
+});
+</script>
+</body>
+</html>

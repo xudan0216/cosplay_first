@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/ui-footer.css">
+    <!--[if IE]>
+      <script type="text/javascript" src="http://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">.head-item { filter: none; }</style>
+    <![endif]-->
+    <title>CosPlay大赛</title>
+ </head>
+ <script>
+ 	  function AutoResizeImage(maxWidth,maxHeight,objImg){
+		var img = new Image();
+		img.src = objImg.src;
+		var hRatio;
+		var wRatio;
+		var Ratio = 1;
+		var w = img.width;
+		var h = img.height;
+		wRatio = maxWidth / w;
+		hRatio = maxHeight / h;
+		if (maxWidth ==0 && maxHeight==0){
+		Ratio = 1;
+		}else if (maxWidth==0){//
+		if (hRatio<1) Ratio = hRatio;
+		}else if (maxHeight==0){
+		if (wRatio<1) Ratio = wRatio;
+		}else if (wRatio<1 || hRatio<1){
+		Ratio = (wRatio<=hRatio?wRatio:hRatio);
+		}
+		if (Ratio<1){
+		w = w * Ratio;
+		h = h * Ratio;
+		}
+		objImg.height = h;
+		objImg.width = w;
+		} 
+ </script>
+  <body>
+    <div>
+      <ul id="menu">
+        <li>
+          <a href="index.html#page1" target="_blank" alt="">活动首页
+            <br/>
+            <i class="f12">HOME</i></a>
+        </li>
+        <li>
+          <a href="index.html#page2" target="_blank" alt="">参赛程序
+            <br/>
+            <i class="f12">PROGRAM</i></a>
+        </li>
+        <li>
+          <a href="index.html#page3" target="_blank" alt="">活动评委
+            <br/>
+            <i class="f12">JUDGES</i></a>
+        </li>
+        <li>
+          <a href="index.html#page4" target="_blank" alt="">活动奖品
+            <br/>
+            <i class="f12">PRIZES</i></a>
+        </li>
+        <li>
+          <a href="index.html#page5" target="_blank" alt="">活动说明
+            <br/>
+            <i class="f12">DECRATION</i></a>
+        </li>
+        <li id="totop">
+          <a href="#" alt="">返回顶部
+            <br/>
+            <i class="f12">TOTHETOP</i></a>
+        </li>
+      </ul>
+    </div>
+    <div id="a" class="banner1">
+      <div class="h-link">
+        <a class="a1 fl" href="#" target="_blank" alt="">查看作品</a>
+        <a class="a2 fr" href="http://bbs.ooqiu.com/forum-commic-1.html" target="_blank" alt="">进入社区</a>
+        <a class="a3 fl" href="http://weibo.com/p/1006065780242113/home?from=page_100606&mod=TAB#place" target="_blank" alt="">查看微博</a></div>
+      <div id="J" class="modal1">
+        <img class="layer pic-modal1" data-depth="0.25" src="images/modal1.png" width="846" height="800" alt="" /></div>
+    </div>
+    <div class="clear"></div>
+    <!-- <div class="nowpage">您现在的位置：手游首页 > 行业新闻 > 正文</div>-->
+    <a href="#zuopin-detail" id="click" style="display:none;"></a>
+    <div class="wrapper h600">
+      <div class="detai_left fl">
+        <div id="slideBox" class="slideBox">
+        	<div class="hd">
+            	</ul>
+                    <li>
+                    <a href="" target="_blank">
+                      <img src="images/cos1.jpg" border="0" onload="AutoResizeImage(132,76,this)"/></a>
+                    </li>
+                    <li>
+                    <a href="" target="_blank">
+                      <img src="images/cos1.jpg" border="0" onload="AutoResizeImage(132,76,this)" /></a>
+                    </li>
+                </ul>
+            </div>
+          <div class="bd">
+            <ul>
+              <li>
+                <a href="" target="_blank">
+                  <img src="images/cos1.jpg" border="0" onload="AutoResizeImage(850,567,this)"/></a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="images/cos1.jpg" width="380" height="567" /></a>
+              </li>
+            </ul>
+          </div>
+          <style>
+		     ul{list-style:none;}
+		    .slideBox{ width:800px; height:567px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+			.slideBox .hd{ position:absolute; bottom:0px; z-index:3;width:300px;height:80px; margin:0 auto;}
+			.slideBox .hd li{width:134px;height:80px;float:left;margin-left:10px;}
+			.slideBox .hd .on{border:1px solid red;}
+			.slideBox .bd{ position:relative; height:100%; z-index:0; }
+			.slideBox .bd li{ zoom:1; vertical-align:middle;text-align:center; }
+			.slideBox .bd img{display:block;margin:0 auto;}
+		  </style>
+     
+        </div>
+        <div class="tic-number">票数：123</div></div>
+      <div class="detai_right fl">
+        <span>作品编号：
+          <b>33号</b>
+        </span>
+        <br/>
+        <span>作品名：
+          <b>佛爷</b>
+        </span>
+        <br/>
+        <span>作品描述：
+          <b>之前拍的，歌留多酱校服加围裙。其他图找不到啦呐。之前拍的，歌留多酱校服加围 裙。其他图找不到啦呐。之前拍的，歌留多酱校服加围裙。其他图找不到啦呐。</b>
+        </span>
+        <br/>
+        <div class="toupiao">
+          <div class="toupiao_left fl"></div>
+          <div class="toupiao_right fl">
+            <div class="tic-num">投TA一票</div>
+            <div class="tic-ewm">
+              <img src="images/ewm.png" width="116" height="116" alt="" />
+              <br/>
+              <em>扫码立即投票</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-item">
+      <div class="wrapper oh">
+        <div class="footer-module">
+          <div class="fn-left left">
+            <div class="footer-logo">
+              <a href="" title="" target="_blank">
+                <img src="images/footer_img/footer_logo.png" width="225" height="87" alt="" /></a>
+            </div>
+          </div>
+          <div class="fn-right right">
+            <div class="footer-nav">
+              <ul>
+                <li>
+                  <a href="" title="" target="_blank">关于全球电竞网</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">版权声明</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">联系我们</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">友情链接</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">网站地图</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">观影指南</a>
+                  <span>|</span>
+                  <a href="" title="" target="_blank">问题反馈</a></li>
+                <li>
+                  <span>本站不提供任何视听上传服务，所有内容均来自视频分享站点所提供的公开引用资源</span></li>
+                <li>
+                  <span>CopyRight © 2011-2015 全球电竞网 - GameNews游新闻网盟旗下网站 All Rights Reserved.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/ralx.js"></script>
+    <script type="text/javascript" src="scripts/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript">$(function() {
+        $("#totop").click(function() {
+          $("html").animate({
+            "scrollTop": 0
+          },
+          500);
+        });
+      });
+      jQuery(".slideBox").slide({
+        mainCell: ".bd ul"
+      });
+     </script>
+  </body>
+</html>
